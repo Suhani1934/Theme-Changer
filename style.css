@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    height: 70px;
+    width: 160px;
+    background-color: red;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 5px #b9b6b676;
+}
